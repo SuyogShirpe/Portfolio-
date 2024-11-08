@@ -24,18 +24,40 @@ li{
   background-color: white;
   padding: 10px 20px;
   border-radius: 5px;
+  transition: all 0.3s ease;
 }
 
 a{
   text-decoration: none;
   color: black;
   display: block;
+  transition: all 0.3s ease;
 }
 
 .navitem:hover{
   background-color: black;
 }
 a:hover{
-  color: white;
+  color:gold;
 }
 
+.home{
+  display: flex;
+  align-items:center;
+}
+
+.img1 img{
+  height:700px;
+  width:auto;
+}
+
+.name{
+
+  font-size: 20px; 
+  margin-bottom: 5px;
+}
+
+.intro{
+  font-size:30px;
+  font-weight: 100;
+}
