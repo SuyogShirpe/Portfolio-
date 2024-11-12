@@ -1,5 +1,5 @@
 body{
-  background-color: white;
+  background-color: rgb(12, 34, 60) ;
 }
 
 nav{
@@ -21,21 +21,22 @@ li{
 }
 
 .navitem{
-  background-color: white;
+  background-color:rgb(12, 34, 60) ;
   padding: 10px 20px;
-  border-radius: 5px;
   transition: all 0.3s ease;
+ 
 }
 
 a{
   text-decoration: none;
-  color: black;
+  color:white;
   display: block;
   transition: all 0.3s ease;
 }
 
 .navitem:hover{
-  background-color: black;
+  cursor: pointer;
+  border-bottom: 3px solid goldenrod; 
 }
 a:hover{
   color:gold;
@@ -47,17 +48,33 @@ a:hover{
 }
 
 .img1 img{
-  height:700px;
-  width:auto;
+  height:400px;
+  width:400px;
+  border-radius: 50%;
 }
 
 .name{
+  font-size: 20px;
+  color:goldenrod;
 
-  font-size: 20px; 
-  margin-bottom: 5px;
 }
 
 .intro{
   font-size:30px;
   font-weight: 100;
+  color: white;
+}
+
+.para{
+  color: white;
+}
+
+.btn1{
+  height: 45px;
+  background-color: transparent;
+  color: goldenrod;
+  border:none;
+  cursor: pointer;
+  border: 3px solid goldenrod; 
+
 }
