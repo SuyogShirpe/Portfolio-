@@ -36,24 +36,19 @@ a{
 
 .navitem:hover{
   cursor: pointer;
-  border-bottom: 3px solid goldenrod; 
+  border-bottom: 3px solid #00aaff; 
 }
 a:hover{
-  color:gold;
+  color:#00aaff;
 }
 
 .home{
   display: flex;
-  align-items:center;
+  align-items: center;
+  justify-content: right;
   padding: 0 10%;
-  
-}
-
-.img1 img{
-  height:400px;
-  width:400px;
-  border-radius: 20%;
-
+  height: 100vh;
+  background: url('img1.png') no-repeat;
 }
 
 .info{
@@ -63,12 +58,11 @@ a:hover{
 }
 
 .name{
-  color:goldenrod;
+  color:#00aaff;
 
 }
 
 .intro{
-
   font-weight: 100;
   color: white;
 }
@@ -80,10 +74,32 @@ a:hover{
 .btn1{
   height: 45px;
   background-color: transparent;
-  color: goldenrod;
+  color: white;
   border-radius: 8px;
   cursor: pointer;
-  border: 3px solid goldenrod; 
+  border: 3px solid #00aaff; 
 
+}
 
+.social{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  bottom: 40px;
+  width: 210px;
+}
+
+.social a{
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width:40px;
+  height:40px;
+  background-color: transparent;
+  border: 2px solid #00aaff;
+  border-radius: 20%;
+  font-size: 20px;
+  color:white;
+  text-decoration: none;
 }
