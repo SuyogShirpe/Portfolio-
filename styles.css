@@ -1,10 +1,16 @@
 body{
   background-color: #081b29 ;
+  font-family: sans-serif;
+  
 }
 
 nav{
   padding: 20px;
   font-size: 25px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
 }
 
 .navbar{
@@ -12,7 +18,7 @@ nav{
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
 
 }
 
@@ -24,7 +30,6 @@ li{
   background-color:transparent;
   padding: 10px 20px;
   transition: all 0.3s ease;
- 
 }
 
 a{
@@ -54,17 +59,34 @@ a:hover{
 .info{
   max-width: 600px;
   padding-left: 3%;
-
 }
 
-.name{
+.name { 
   color:#00aaff;
-
+  margin-bottom: 0;
+  display: inline-block;
+  overflow: hidden;
+  width: 0;
+  white-space: nowrap;
+ 
+  animation: typingEffect 4s steps(70, end) .5s forwards;
 }
+
+@keyframes typingEffect {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
 
 .intro{
   font-weight: 100;
   color: white;
+  margin-top: 5px;
 }
 
 .para{
