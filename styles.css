@@ -130,17 +130,12 @@ a:hover{
 }
 
 
-.skills{
-  width: 100%;
-  height: 600px;
-}
-.skills-title{
+.title{
   color:#00aaff;
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 0;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   animation: animet 4s ease-in-out;
 }
 @keyframes animet{
@@ -154,29 +149,24 @@ a:hover{
   }
 }
 
-.skills-box{ 
-  overflow: hidden;
-  width:100%;
-  height:500px;
-  display: flex;
-  justify-content: center;
+.skills-box,.projects-box{ 
+  overflow-x: auto;
+  height:600px;
+  display: flex;                
+  justify-content: space-evenly;
   align-items: center;
   
 }
-.langs,.webdev{
+.langs,.webdev,.project-item{
   width: 400px;
   height: 400px;
-  border: 3px solid #00aaff;
+  border: 2px solid rgb(54, 55, 62);
   border-radius: 30px;
   color: #ffffff50;
   text-align: center;
 }
 
-.langs{
-  margin-right: 100px;
-}
-
-.langs-item,.webdev-item{
+.langs-text,.webdev-text{
   list-style-type: none;
   font-size: 30px;
   color: white;
@@ -184,7 +174,22 @@ a:hover{
 
 }
 
+.about-box{
+  width:100%;
+  height:450px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+.about-item{
+  width: 600px;
+  height: 250px;
+  border: 2px solid rgb(54, 55, 62);
+  border-radius: 30px;
+  color: #ffffff50;
+  text-align: center;
+}
 
 
 
