@@ -163,8 +163,22 @@ a:hover{
   border-radius: 15px;
   background-color:#11344d ;
   margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.skills-img{
+  width: 60px;
+  height: 60px;
+  padding-top: 10px;
+}
+.skills-text {
+  color: white; 
+  margin-top: 20px; 
+  font-size: 14px;
+  text-align: center;
+}
 
 .projects-box{ 
   overflow-x: auto;
