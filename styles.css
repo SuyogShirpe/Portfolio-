@@ -1,3 +1,5 @@
+
+
 body{
   background-color: #081b29 ;
   font-family: sans-serif;
@@ -167,7 +169,12 @@ a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: transform 0.34s ease;
 }
+.skills-item:hover{
+    transform: scale(1.1);
+} 
+
 .skills-img{
   width: 60px;
   height: 60px;
@@ -195,6 +202,11 @@ a:hover{
   border-radius: 30px;
   color: #ffffff50;
   text-align: center;
+  transition: transform 0.34s ease;
+}
+.projects-item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #01ccff;
 }
 
 .about-box{
@@ -265,8 +277,12 @@ footer p {
   font-size: 20px;
   color:white;
   text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.34s ease;
 }
-
+.social a:hover {
+  background-color: #2980b9;
+  transform: scale(1.2);
+}
 
 
 
