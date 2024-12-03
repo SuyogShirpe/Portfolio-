@@ -1,7 +1,7 @@
 
 
 body{
-  background-color: #081b29 ;
+  background-color: #000000 ;
   font-family: sans-serif;
   
 }
@@ -50,8 +50,7 @@ a:hover{
   align-items: center;
   justify-content: right;
   padding: 0 10%;
-  height: 100vh;
-  background: url('img1.png') no-repeat;
+  height: 800px;
 }
 
 .info{
@@ -163,7 +162,7 @@ a:hover{
   width: 150px;
   height: 150px;
   border-radius: 15px;
-  background-color:#11344d ;
+  background-color:#202021 ;
   margin-left: 25px;
   display: flex;
   flex-direction: column;
