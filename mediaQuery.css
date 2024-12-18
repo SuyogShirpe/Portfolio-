@@ -1,5 +1,9 @@
 @media (max-width: 1004px) {
 
+   .loader img{
+    width: 30vw;
+   }
+
     nav {
       padding: 10px;
       font-size: 18px;
@@ -70,6 +74,11 @@
   }
   
   @media (max-width: 480px) {
+
+    .loader img{
+      width: 40vw;
+     }
+
     nav {
       padding: 8px;
       font-size: 16px;

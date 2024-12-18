@@ -14,7 +14,9 @@
 }
 
 .loader img {
-  width: 100px; 
+  width: 20vw;
+  max-width: 160px; 
+  height: auto;
 }
 
 #content{
@@ -35,7 +37,7 @@ nav{
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 9999;
   width:100%;
   background-color: #000000;
   opacity: 0.6;
@@ -238,6 +240,10 @@ a:hover{
 .projects-item:hover{
     transform: scale(1.05);
     box-shadow: 0 0 20px #01ccff;
+}
+.projects-img{
+  width: 160px;
+  height: 160px;
 }
 
 .about-box{
