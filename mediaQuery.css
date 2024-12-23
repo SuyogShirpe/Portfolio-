@@ -65,6 +65,7 @@
     .abouts-item {
       width: 90%;
       height: auto;
+      margin: 15px 0;
     }
   
     .contact-box {
@@ -116,7 +117,7 @@
       width: 100px;
       height: 100px;
       margin: 10px 0;
-      background-color: black;
+      background-color: transparent;
     }
   
     .projects-box {
@@ -138,6 +139,7 @@
     .abouts-item {
       width: 90%;
       height: auto;
+      margin: 10px 0;
     }
   
     .contact-box {
