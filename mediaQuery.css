@@ -4,18 +4,15 @@
     width: 30vw;
    }
 
-    nav {
-      padding: 10px;
-      font-size: 18px;
+   .navbar .links,
+    .navbar .theme{
+        display: none;
     }
-  
-    .navbar {
-      display: flex;
-      justify-content: space-between;
+    .navbar .toggle-btn{
+        display: block;
     }
-  
-    .navitem {
-      padding: 8px 15px;
+    .dropdown{
+        display: block;
     }
   
     .home {
@@ -80,14 +77,6 @@
       width: 40vw;
      }
 
-    nav {
-      padding: 8px;
-      font-size: 16px;
-    }
-  
-    .navitem {
-      padding: 5px 12px;
-    }
   
     .home {
       padding: 0 5%;
@@ -147,3 +136,19 @@
       height: auto;
     }
   }
+
+  @media (max-width:580px) {
+    
+    .navbar .logo {
+       transform: scale(0.46);
+    }
+    
+}
+@media (max-width:700px) {
+    
+  .dropdown{
+    transform: scale(0.6);
+    top: 33px;
+  }
+  
+}
