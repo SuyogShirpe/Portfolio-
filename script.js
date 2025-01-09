@@ -22,16 +22,29 @@ toggleBtn.onclick= function(){
 
 }
 
-const switchButton = document.getElementById('theme');
-const stylesheet = document.getElementById('stylesheet');
+const themeButton1 = document.getElementById('theme1');
+const stylesheet1 = document.getElementById('stylesheet');
 
-switchButton.addEventListener('click', () => {
+themeButton1.addEventListener('click', () => {
  
-    if (stylesheet.getAttribute('href') === 'styles.css') {
-        stylesheet.setAttribute('href', 'light.css');
+    if (stylesheet1.getAttribute('href') === 'styles.css') {
+        stylesheet1.setAttribute('href', 'light.css');
       
     } else {
-        stylesheet.setAttribute('href', 'styles.css');
+        stylesheet1.setAttribute('href', 'styles.css');
+
+    }
+});
+const themeButton2 = document.getElementById('theme2');
+const stylesheet2 = document.getElementById('stylesheet');
+
+themeButton2.addEventListener('click', () => {
+ 
+    if (stylesheet2.getAttribute('href') === 'styles.css') {
+        stylesheet2.setAttribute('href', 'light.css');
+      
+    } else {
+        stylesheet2.setAttribute('href', 'styles.css');
 
     }
 });

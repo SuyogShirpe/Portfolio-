@@ -76,8 +76,7 @@
     .loader img{
       width: 40vw;
      }
-
-  
+    
     .home {
       padding: 0 5%;
       height: auto;
@@ -87,7 +86,7 @@
     .home img {
       height: 250px;
       margin-bottom: 10px;
-      margin: auto ;
+      left: 0;
     }
   
     .info {
@@ -147,8 +146,8 @@
 @media (max-width:700px) {
     
   .dropdown{
-    transform: scale(0.6);
-    top: 33px;
+   width: 160px;
+    top: 66px;
   }
   
 }
