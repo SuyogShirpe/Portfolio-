@@ -29,12 +29,15 @@ themeButton1.addEventListener('click', () => {
  
     if (stylesheet1.getAttribute('href') === 'styles.css') {
         stylesheet1.setAttribute('href', 'light.css');
+
       
     } else {
         stylesheet1.setAttribute('href', 'styles.css');
 
     }
 });
+
+
 const themeButton2 = document.getElementById('theme2');
 const stylesheet2 = document.getElementById('stylesheet');
 

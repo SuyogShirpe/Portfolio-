@@ -56,12 +56,14 @@ header{
   justify-content: space-between;
   align-items: center;
 }
-.navbar .logo{
-  font-size: 40px;
-  font-weight: bold;
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.navbar .logo1 img{
+  height: 120px;
 }
+.navbar .logo2 img{
+  display: none;
+}
+
 .navbar .links{
   display: flex;
   gap: 30px;

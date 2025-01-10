@@ -136,13 +136,6 @@
     }
   }
 
-  @media (max-width:580px) {
-    
-    .navbar .logo {
-       transform: scale(0.46);
-    }
-    
-}
 @media (max-width:700px) {
     
   .dropdown{
