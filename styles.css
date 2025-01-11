@@ -276,7 +276,7 @@ header{
 }
 .projects-item:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 20px #01ccff;
+    box-shadow: 0 0 20px #144652;
 }
 .projects-img{
   width: 160px;
