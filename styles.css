@@ -156,33 +156,14 @@ header{
   font-weight: 100;
   color: white;
   margin-top: 5px;
-  animation: ani 1s ease-in-out;
+
 }
-@keyframes ani{
-  from{
-    opacity: 0;
-    transform: translateX(-200px);
-  }
-  to{
-    opacity:1;
-    transform: translateX(0);
-  }
-}
+
 
 .para{
   color: white;
-  animation: anim 1s ease-in-out;
-}
-@keyframes anim{
-  from{
-    opacity:0;
-    transform: translateX(150px);
-  }
-  to{
-    opacity:1;
-    transform: translate3d(0);
-  }
-}
+} 
+
 
 .btn1{
   height: 45px;
@@ -191,17 +172,19 @@ header{
   border-radius: 10px;
   cursor: pointer;
   border: 3px solid #00aaff; 
-  animation: anime 1s ease-in-out;
+  
 }
-@keyframes anime{
-  from{
-    opacity:0;
-    transform: translateY(200px);
-  }
-  to{
-    opacity:1;
-    transform: translateY(0);
-  }
+
+.hidden{
+  opacity: 0;
+  transition: all 1.7s;
+  filter:blur(5px);
+  transform: translateX(-50%);
+}
+.show{
+  opacity: 1;
+  filter:blur(0px);
+  transform: translateX(0);
 }
 
 
@@ -211,33 +194,25 @@ header{
   font-weight: bold;
   margin-bottom: 0;
   text-align: center;
-  animation: animet 4s ease-in-out;
-}
-@keyframes animet{
-  from{
-    opacity: 0;
-    transform: translateX(40px);
-  }
-  to{
-    opacity:1;
-    transform: translateX(0);
-  }
-}
-
-.skills-box{ 
-  overflow-x: auto;
-  height:200px;
-  display: flex;                
-  justify-content: center;
-  align-items: center;
   
 }
-.skills-item{
-  width: 150px;
+
+
+.skills-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+  gap: 20px; 
+  padding: 20px;
+  overflow: hidden; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.skills-item {
+  width: 100%; 
   height: 150px;
   border-radius: 15px;
-  background-color:#202021 ;
-  margin-left: 25px;
+  background-color: #202021;
   display: flex;
   flex-direction: column;
   justify-content: center;

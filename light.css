@@ -129,33 +129,15 @@ header{
   font-weight: 100;
   color: rgb(0, 0, 0);
   margin-top: 5px;
-  animation: ani 1s ease-in-out;
+  
 }
-@keyframes ani{
-  from{
-    opacity: 0;
-    transform: translateX(-200px);
-  }
-  to{
-    opacity:1;
-    transform: translateX(0);
-  }
-}
+
 
 .para{
   color: rgb(0, 0, 0);
-  animation: anim 1s ease-in-out;
+  
 }
-@keyframes anim{
-  from{
-    opacity:0;
-    transform: translateX(150px);
-  }
-  to{
-    opacity:1;
-    transform: translate3d(0);
-  }
-}
+
 
 .btn1{
   height: 45px;
@@ -164,18 +146,21 @@ header{
   border-radius: 10px;
   cursor: pointer;
   border: 3px solid crimson; 
-  animation: anime 1s ease-in-out;
+  
 }
-@keyframes anime{
-  from{
-    opacity:0;
-    transform: translateY(200px);
-  }
-  to{
-    opacity:1;
-    transform: translateY(0);
-  }
+
+.hidden{
+  opacity: 0;
+  transition: all 1.7s;
+  filter:blur(5px);
+  transform: translateX(-50%);
 }
+.show{
+  opacity: 1;
+  filter:blur(0px);
+  transform: translateX(0);
+}
+
 
 
 .title{
@@ -184,18 +169,9 @@ header{
   font-weight: bold;
   margin-bottom: 0;
   text-align: center;
-  animation: animet 4s ease-in-out;
+  
 }
-@keyframes animet{
-  from{
-    opacity: 0;
-    transform: translateX(40px);
-  }
-  to{
-    opacity:1;
-    transform: translateX(0);
-  }
-}
+
 
 .skills-box{ 
   overflow-x: auto;
@@ -209,7 +185,7 @@ header{
   width: 150px;
   height: 150px;
   border-radius: 15px;
-  background-color:#aaaaae ;
+  background-color:#b4b4b490 ;
   margin-left: 25px;
   display: flex;
   flex-direction: column;

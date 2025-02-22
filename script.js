@@ -9,6 +9,31 @@ window.addEventListener('load', function() {
   }, 2000); 
 });
 
+
+
+
+
+const observer= new IntersectionObserver((entries) =>{
+    entries.forEach((entry) =>{
+        console.log(entry)
+        if(entry.isIntersecting)
+        {
+            entry.target.classList.add('show')
+        }
+        else
+        {
+            entry.target.classList.remove('show')
+        }
+
+    });
+});
+
+const hidElements=document.querySelectorAll('.hidden')
+hidElements.forEach((el) => observer.observe(el));
+
+
+
+
 const toggleBtn= document.querySelector('.toggle-btn');
 const toggleIcon= document.querySelector('.toggle-btn i');
 const dropdown= document.querySelector('.dropdown');
