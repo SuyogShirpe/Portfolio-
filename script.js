@@ -6,7 +6,7 @@ window.addEventListener('load', function() {
       document.getElementById('loader').style.display = 'none';
       document.querySelector('.content').style.visibility = 'visible';
       document.querySelector('.content').style.opacity = 1;
-  }, 2000); 
+  }, 1500); 
 });
 
 
