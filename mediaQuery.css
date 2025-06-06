@@ -1,155 +1,149 @@
 @media (max-width: 1004px) {
-
-   .loader img{
+  .loader img {
     width: 30vw;
-   }
-
-   .navbar .links,
-    .navbar .theme{
-        display: none;
-    }
-    .navbar .toggle-btn{
-        display: block;
-    }
-    .dropdown{
-        display: block;
-    }
-  
-    .home {
-      padding: 0 5%;
-      height: auto;
-      flex-direction: column;
-    }
-  
-    .home img {
-      height: 300px;
-      margin-bottom: 15px;
-    }
-  
-    .info {
-      max-width: 100%;
-      padding-left: 0;
-    }
-  
-    .skills-box {
-      display: flex;
-      justify-content: space-evenly;
-      height: auto;
-    }
-  
-    .skills-item {
-      width: 120px;
-      height: 120px;
-      margin: 15px 0;
-    }
-  
-    .projects-box {
-      flex-direction: column;
-      height: auto;
-    }
-  
-    .projects-item {
-      width: 90%;
-      height: auto;
-      margin: 15px 0;
-    }
-  
-    .about-box {
-      flex-direction: column;
-      height: auto;
-    }
-  
-    .abouts-item {
-      width: 90%;
-      height: auto;
-      margin: 15px 0;
-    }
-  
-    .contact-box {
-      width: 90%;
-      height: auto;
-    }
-  }
-  
-  @media (max-width: 480px) {
-
-    .loader img{
-      width: 40vw;
-     }
-    
-    .home {
-      padding: 0 5%;
-      height: auto;
-      flex-direction: column;
-    }
-  
-    .home img {
-      height: 250px;
-      margin-bottom: 10px;
-      left: 0;
-    }
-  
-    .info {
-      max-width: 100%;
-      padding-left: 0;
-      text-align: center;
-    }
-  
-    .skills-box {
-      display: flex;
-      justify-content: space-evenly;
-      height: auto;
-    }
-  
-    .skills-item {
-      width: 100px;
-      height: 100px;
-      margin: 10px 0;
-      background-color: transparent;
-    }
-  
-    .projects-box {
-      flex-direction: column;
-      height: auto;
-    }
-  
-    .projects-item {
-      width: 90%;
-      height: auto;
-      margin: 10px 0;
-    }
-  
-    .about-box {
-      flex-direction: column;
-      height: auto;
-    }
-  
-    .abouts-item {
-      width: 90%;
-      height: auto;
-      margin: 10px 0;
-    }
-  
-    .contact-box {
-      width: 90%;
-      height: auto;
-    }
   }
 
-@media (max-width:767px) {
-    
-  .dropdown{
-   width: 160px;
-    top: 66px;
+  .navbar .links,
+  .navbar .theme {
+    display: none;
   }
-  
+  .navbar .toggle-btn {
+    display: block;
+  }
+  .dropdown {
+    display: block;
+  }
+
+  .home {
+    padding: 0 5%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .home img {
+    height: 300px;
+    margin-bottom: 15px;
+  }
+
+  .info {
+    max-width: 100%;
+    padding-left: 0;
+  }
+
+  .skills-box {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+  }
+
+  .skills-item {
+    width: 120px;
+    height: 120px;
+    margin: 15px 0;
+  }
+
+  .projects-box {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .projects-item {
+    width: 90%;
+    height: auto;
+    margin: 15px 0;
+  }
+
+  .about-box {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .abouts-item {
+    width: 90%;
+    height: auto;
+    margin: 15px 0;
+  }
+
+  .contact-box {
+    width: 90%;
+    height: auto;
+  }
 }
 
-@media (max-width:490px) {
-    
-  .dropdown{
-   width: 140px;
+@media (max-width: 480px) {
+  .loader img {
+    width: 40vw;
+  }
+
+  .home {
+    padding: 0 5%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .home img {
+    height: 250px;
+    margin-bottom: 10px;
+    left: 0;
+  }
+
+  .info {
+    max-width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .skills-box {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+  }
+
+  .skills-item {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+    background-color: transparent;
+  }
+
+  .projects-box {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .projects-item {
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .about-box {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .abouts-item {
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .contact-box {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .dropdown {
+    width: 160px;
     top: 66px;
   }
-  
+}
+
+@media (max-width: 490px) {
+  .dropdown {
+    width: 140px;
+    top: 66px;
+  }
 }

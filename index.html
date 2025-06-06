@@ -1,296 +1,200 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link  id="stylesheet" rel="stylesheet" type="text/css" href="styles.css"/>
-  <link rel="stylesheet" type="text/css" href="mediaQuery.css"/>
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link id="stylesheet" rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="mediaQuery.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-  <title>Hello, World!</title>
-</head>
-<body>
-<!-------------------------------------Loader--------------------------->
-<div id="loader" class="loader">
-   <img src="loader.gif" alt="Loading..." />
-</div>
+    <title>Hello, World!</title>
+  </head>
+  <body>
+    <!-------------------------------------Loader--------------------------->
+    <div id="loader" class="loader">
+      <img src="loader.gif" alt="Loading..." />
+    </div>
 
+    <div id="content" class="content">
+      <!-----------------------------------navbar--------------------------->
+      <header>
+        <div class="navbar">
+          <div id="logo1" class="logo1"><img src="logo1.jpg" /></div>
+          <div id="logo2" class="logo2"><img src="logo2.jpg" /></div>
 
-<div id="content" class="content"> 
+          <ul class="links">
+            <li><a href="#HOME">HOME</a></li>
+            <li><a href="#SKILLS">SKILLS</a></li>
+            <li><a href="#PROJECTS">PROJECTS</a></li>
+            <li><a href="#ABOUT">ABOUT</a></li>
+            <li><a href="#CONTACT">CONTACT</a></li>
+          </ul>
 
-   
+          <button id="theme1" class="theme">THEME</button>
 
-  <!-----------------------------------navbar--------------------------->
-  <header>
+          <div class="toggle-btn"><i class="bx bx-menu"></i></div>
+        </div>
 
-   <div class="navbar">
+        <div class="dropdown">
+          <li><a href="#HOME">HOME</a></li>
+          <li><a href="#SKILLS">SKILLS</a></li>
+          <li><a href="#PROJECTS">PROJECTS</a></li>
+          <li><a href="#ABOUT">ABOUT</a></li>
+          <li><a href="#CONTACT">CONTACT</a></li>
+          <li><button id="theme2" class="theme">THEME</button></li>
+        </div>
+      </header>
+      <!------------------------------------information----------------------->
 
-        <div id="logo1"  class="logo1"><img src="logo1.jpg" /></div>
-        <div id="logo2"  class="logo2"><img src="logo2.jpg" /></div>
-   
-        <ul class="links">
-   
-               <li><a href="#HOME">Home</a></li>
-               <li><a href="#SKILLS">SKILLS</a></li>
-               <li><a href="#PROJECTS">PROJECTS</a></li>
-               <li><a href="#ABOUT">ABOUT</a></li>
-               <li><a href="#CONTACT">CONTACT</a></li>
-   
-        </ul>
-   
-        <button id="theme1" class="theme">THEME</button>
-   
-        <div class="toggle-btn"><i class='bx bx-menu'></i></div>
-   
-   </div>
-   
-   <div class="dropdown">
-   
-       <li><a href="#HOME">HOME</a></li>
-       <li><a href="#SKILLS">SKILLS</a></li>
-       <li><a href="#PROJECTS">PROJECTS</a></li>
-       <li><a href="#ABOUT">ABOUT</a></li>
-       <li><a href="#CONTACT">CONTACT</a></li>
-       <li><button id="theme2" class="theme">THEME</button></li>
-   
-   </div>
-   
-   </header>
-<!------------------------------------information----------------------->
+      <div class="home" id="HOME">
+        <img src="profile.jpg" alt="image" />
 
-<div class="home" id="HOME">
+        <div class="info">
+          <h1 class="name">Hi, I am Suyog Shirpe...</h1>
 
-   <img src="profile.jpg" alt="image">
+          <h2 class="intro">Web Developer</h2>
 
-   <div class="info">
+          <p class="para">
+            I'm a dedicated Web Developer with a passion for building clean,
+            user-friendly, and responsive websites. With experience in HTML,
+            CSS, JavaScript, and MySQL, I enjoy turning ideas into reality on
+            the web. I'm always eager to learn new technologies and improve my
+            skills with every project I work on.
+          </p>
 
-      <h1 class="name">Hi, I am Suyog Shirpe...</h1>
-
-      <h2 class="intro">Web Developer</h2>
-
-      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum adipisci odit
-                      aspernatur quasi, dolor explicabo fugiat cupiditate dignissimos reiciendis omnis
-                      sapiente iusto quaerat repellendus sed. Dolore tempora quibusdam inventore libero?
-      </p>
-   
-      <div>
-          <button class="btn1">Download CV</button>
-      </div>
-   </div>
-
-</div>
-
-
-<!--------------------------------------skill section 1 ------------------------------>
-
-
-<p class="title hidden" id="SKILLS">MY SKILLS</p>
-
-<div class="skills-box hidden">
-
-   <div class="skills-item">
-
-      <img class="skills-img" src="python.png" alt="python img..">
-      <p class="skills-text">Python</p>
-
-   </div>
-
-   <div class="skills-item">
-
-      <img class="skills-img" src="html.png" alt="html img..">
-      <p class="skills-text">HTML</p>
-      
-   </div>
-
-   <div class="skills-item">
-
-      <img class="skills-img" src="css.png" alt="css img..">
-      <p class="skills-text">CSS</p>
-      
-   </div>
-
-   <div class="skills-item">
-
-      <img class="skills-img" src="javascript.png" alt="javascript img..">
-      <p class="skills-text">JavaScript</p>
-      
-   </div>
-
-</div>
-
-<!--------------------------------------skill section 2 ------------------------------>
-
-<div class="skills-box hidden">
-
-   <div class="skills-item">
-
-      <img class="skills-img" src="progress.png" alt="">
-      <p class="skills-text">learning..</p>
-
-   </div>
-
-   <div class="skills-item">
-
-      <img class="skills-img" src="progress.png" alt="">
-      <p class="skills-text">learning..</p>
-      
-   </div>
-
-   <div class="skills-item">
-
-      <img class="skills-img" src="progress.png" alt="">
-      <p class="skills-text">learning..</p>
-      
-   </div>
-
-   <div class="skills-item">
-
-      <img class="skills-img" src="progress.png" alt="">
-      <p class="skills-text">learning..</p>
-      
-   </div>
-
-</div>
-
-
-
-<!-------------------------------projects-------------------------------------->
-
-
-<p class="title hidden" id="PROJECTS">MY PROJECTS</p>
-
-<div class="projects-box hidden">
-
-      <div class="projects-item">
-
-              <h1>MOVIE WEBSITE</h1>
-              <img class="projects-img" src="movie.png"  alt="movie img..">
-              <h1 class="title">VISIT</h1>
-
-
+          <div>
+            <button class="btn1">Download CV</button>
+          </div>
+        </div>
       </div>
 
-      <div class="projects-item">
+      <!--------------------------------------skill section 1 ------------------------------>
 
-              <h1>THINKING...</h1>
-              <img class="projects-img" src="progress.png"  alt="work img..">
-              <h1 class="title">...</h1>
+      <p class="title hidden" id="SKILLS">MY SKILLS</p>
 
+      <div class="skills-box hidden">
+        <div class="skills-item">
+          <img class="skills-img" src="c.png" alt="python img.." />
+          <p class="skills-text">C Language</p>
+        </div>
+
+        <div class="skills-item">
+          <img class="skills-img" src="html.png" alt="html img.." />
+          <p class="skills-text">HTML</p>
+        </div>
+
+        <div class="skills-item">
+          <img class="skills-img" src="css.png" alt="css img.." />
+          <p class="skills-text">CSS</p>
+        </div>
+
+        <div class="skills-item">
+          <img class="skills-img" src="javascript.png" alt="javascript img.." />
+          <p class="skills-text">JavaScript</p>
+        </div>
       </div>
 
-      <div class="projects-item">
+      <!--------------------------------------skill section 2 ------------------------------>
 
-              <h1>UNDER PROCESS...</h1>
-              <img class="projects-img" src="progress.png"  alt="work img..">
-              <h1 class="title">...</h1>
+      <div class="skills-box hidden">
+        <div class="skills-item">
+          <img class="skills-img" src="mysql.png" alt="" />
+          <p class="skills-text">MySql</p>
+        </div>
 
+        <div class="skills-item">
+          <img class="skills-img" src="progress.png" alt="" />
+          <p class="skills-text">learning..</p>
+        </div>
 
+        <div class="skills-item">
+          <img class="skills-img" src="progress.png" alt="" />
+          <p class="skills-text">learning..</p>
+        </div>
+
+        <div class="skills-item">
+          <img class="skills-img" src="progress.png" alt="" />
+          <p class="skills-text">learning..</p>
+        </div>
       </div>
 
+      <!-------------------------------projects-------------------------------------->
 
+      <p class="title hidden" id="PROJECTS">MY PROJECTS</p>
 
-</div>
+      <div class="projects-box hidden">
+        <a href="https://5uyog.github.io/Rock-Paper-Scissors/">
+          <div class="projects-item">
+            <h1>Simple Game</h1>
+            <img class="projects-img" src="project.png" alt="project img.." />
+            <h1 class="title">VISIT</h1>
+          </div>
+        </a>
 
-<!-----------------------------------ABOUT ME---------------------------------->
+        <a href="#">
+          <div class="projects-item">
+            <h1>College Result Website</h1>
+            <img class="projects-img" src="project.png" alt="project img.." />
+            <h1 class="title">VISIT</h1>
+          </div>
+        </a>
 
-<p class="title hidden" id="ABOUT">ABOUT ME</p>
-
-<div class="about-box hidden">
-
-      <div class="abouts-item">
-
-          <img class="abouts-img" src="experience.png" alt="experience">
-           <p>Experience is important but I don't have any...</p>
-
-      </div> 
-    
-      <div class="abouts-item">
-
-           <img class="abouts-img" src="college.png" alt="college">
-           <p>MALLA REDDY ENG COLLEGE</p>
-           <P>BTECH-CSIT</P>
-           <P>CGPA-8.4</P>
-
+        <div class="projects-item">
+          <h1>UNDER PROCESS...</h1>
+          <img class="projects-img" src="project.png" alt="project img.." />
+          <h1 class="title">...</h1>
+        </div>
       </div>
 
+      <!-----------------------------------ABOUT ME---------------------------------->
 
-</div>
+      <p class="title hidden" id="ABOUT">ABOUT ME</p>
 
+      <div class="about-box hidden">
+        <div class="abouts-item">
+          <img class="abouts-img" src="experience.png" alt="experience" />
+          <p>Experience is important but I don't have any...</p>
+        </div>
 
-<!--------------------------------------CONTACT----------------------------------->
+        <div class="abouts-item">
+          <img class="abouts-img" src="college.png" alt="college" />
+          <p>MALLA REDDY ENG COLLEGE</p>
+          <p>BTECH-CSIT</p>
+          <p>CGPA-8.4</p>
+        </div>
+      </div>
 
-<p class="title hidden" id="CONTACT">CONTACT ME</p>
+      <!--------------------------------------CONTACT----------------------------------->
 
-<div class="contact-box hidden">
+      <p class="title hidden" id="CONTACT">CONTACT ME</p>
 
-   <i class='bx bx-mobile'>&nbspPhone:<br>&nbsp+9112346789</i>
+      <div class="contact-box hidden">
+        <i class="bx bx-mobile">&nbspPhone:<br />&nbsp+9112346789</i>
 
-   <i class='bx bx-envelope'>&nbspEmail:<br>shirpesuyog@gmail.com</i>
+        <i class="bx bx-envelope">&nbspEmail:<br />shirpesuyog@gmail.com</i>
 
-   <i class='bx bx-map'>&nbspAddress:<br>&nbspHyd, India</i>
+        <i class="bx bx-map">&nbspAddress:<br />&nbspHyd, India</i>
+      </div>
 
-   
+      <!---------------------------------------FOOTER------------------------------>
+      <footer class="hidden">
+        <div class="social">
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-facebook-square"></i></a>
+          <a href="https://www.linkedin.com/in/suyog-shirpe-61792031a"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+        </div>
 
-</div>
+        <p>Copyright &#169; 2024 Suyog Shirpe. All Rights Reserved.</p>
+      </footer>
+    </div>
 
-<!---------------------------------------FOOTER------------------------------>
-<footer class="hidden">
- 
-   <div class="social">
-
-    <a href="#"><i class='bx bxl-instagram'></i></a>
-    <a href="#"><i class='bx bxl-twitter'></i></a>
-    <a href="#"><i class='bx bxl-facebook-square' ></i></a>
-    <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
-
-   </div>
-
-   <p>Copyright &#169; 2024 Suyog Shirpe. All Rights Reserved.</p>
- </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-<script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
