@@ -48,15 +48,28 @@ header {
   cursor: pointer;
   display: none;
 }
-.theme {
+.theme2 {
+  height: 2rem;
+  width: 2rem;
   color: rgb(0, 0, 0);
   background-color: transparent;
-  padding: 8px 16px;
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 20px;
+  padding: auto;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 50%;
   font-size: 20px;
   cursor: pointer;
+  top: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.theme1{
+  display: none;
+}
+
+
 .theme:hover {
   background-color: crimson;
 }

@@ -31,25 +31,16 @@ toggleBtn.onclick = function () {
   toggleIcon.classList = isOpen ? "bx bx-cross bx-spin" : "bx bx-menu";
 };
 
-const themeButton1 = document.getElementById("theme1");
-const stylesheet1 = document.getElementById("stylesheet");
+  const stylesheet = document.getElementById("stylesheet");
+  const btnLight = document.getElementById("theme1"); 
+  const btnDark = document.getElementById("theme2"); 
 
-themeButton1.addEventListener("click", () => {
-  if (stylesheet1.getAttribute("href") === "styles.css") {
-    stylesheet1.setAttribute("href", "light.css");
-  } else {
-    stylesheet1.setAttribute("href", "styles.css");
-  }
-});
+  btnLight.addEventListener("click", () => {
+    stylesheet.setAttribute("href", "light.css");
+  });
 
-const themeButton2 = document.getElementById("theme2");
-const stylesheet2 = document.getElementById("stylesheet");
+  btnDark.addEventListener("click", () => {
+    stylesheet.setAttribute("href", "styles.css");
+  });
 
-themeButton2.addEventListener("click", () => {
-  if (stylesheet2.getAttribute("href") === "styles.css") {
-    stylesheet2.setAttribute("href", "light.css");
-  } else {
-    stylesheet2.setAttribute("href", "styles.css");
-  }
-});
 

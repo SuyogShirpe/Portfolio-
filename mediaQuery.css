@@ -67,7 +67,7 @@
   }
 
   .contact-box {
-    width: 90%;
+    flex-direction: column;
     height: auto;
   }
 }

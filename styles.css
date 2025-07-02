@@ -73,14 +73,26 @@ header {
   cursor: pointer;
   display: none;
 }
-.theme {
+.theme1 {
+  height: 2rem;
+  width: 2rem;
   color: white;
   background-color: transparent;
-  padding: 8px 16px;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 20px;
+  padding:auto;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
   font-size: 20px;
   cursor: pointer;
+  top: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme2{
+  display: none;
 }
 .theme:hover {
   background-color: #00aaff;
@@ -90,7 +102,7 @@ header {
   position: absolute;
   right: 0;
   top: 66px;
-  width: 300px;
+  width: 260px;
   overflow: hidden;
   display: none;
   height: 0;
@@ -103,7 +115,7 @@ header {
   align-items: center;
 }
 .dropdown.open {
-  height: 330px;
+  height: 260px;
   border: 1px solid silver;
   border-radius: 10px;
 }
@@ -283,7 +295,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
 }
 .contact-box i {
   font-size: 36px;
