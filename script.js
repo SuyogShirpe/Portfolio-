@@ -28,7 +28,7 @@ toggleBtn.onclick = function () {
   dropdown.classList.toggle("open");
   const isOpen = dropdown.classList.contains("open");
 
-  toggleIcon.classList = isOpen ? "bx bx-cross bx-spin" : "bx bx-menu";
+  toggleIcon.classList = isOpen ? "bx bx-cross" : "bx bx-menu";
 };
 
   const stylesheet = document.getElementById("stylesheet");
