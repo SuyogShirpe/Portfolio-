@@ -1,9 +1,8 @@
 window.addEventListener("load", function () {
   setTimeout(function () {
-    document.getElementById("loader").style.display = "none";
     document.querySelector(".content").style.visibility = "visible";
     document.querySelector(".content").style.opacity = 1;
-  }, 1500);
+  }, 500);
 });
 
 const observer = new IntersectionObserver((entries) => {
