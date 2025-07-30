@@ -2,7 +2,7 @@ window.addEventListener("load", function () {
   setTimeout(function () {
     document.querySelector(".content").style.visibility = "visible";
     document.querySelector(".content").style.opacity = 1;
-  }, 500);
+  }, 1000);
 });
 
 const observer = new IntersectionObserver((entries) => {
