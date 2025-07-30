@@ -3,7 +3,7 @@
 }
 body {
   background-color: #ffffff;
-  font-family: sans-serif;
+  font-family: "Segoe UI", sans-serif;
   height: 100vh;
 }
 
@@ -96,6 +96,7 @@ header {
   height: 260px;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
+  z-index: 10;
 }
 
 .home {
@@ -176,41 +177,45 @@ header {
   text-align: center;
 }
 
-.skills-box {
+.skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
-  padding: 20px;
-  overflow: hidden;
-  max-width: 1200px;
-  margin: 0 auto;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 20px auto 0;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
-.skills-item {
-  width: 230px;
-  height: 150px;
-  border-radius: 15px;
-  background-color: #b4b4b490;
+.skill-card {
+  padding: 1.2rem;
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  transition: transform 0.34s ease;
-}
-.skills-item:hover {
-  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
 }
 
-.skills-img {
+.skill-card:hover {
+  transform: scale(1.05);
+}
+
+.skill-card img {
   width: 60px;
   height: 60px;
-  padding-top: 10px;
+  margin-bottom: 0.75rem;
+  transition: filter 0.3s ease;
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
 }
-.skills-text {
-  color: rgb(0, 0, 0);
-  margin-top: 20px;
-  font-size: 14px;
-  text-align: center;
+
+.skill-card p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333333;
 }
 
 .project-container {
@@ -218,15 +223,13 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
   justify-content: center;
-
   padding: 60px 10%;
 }
 
 .project-card {
-  background-color: #b4b4b490;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   border-radius: 16px;
   overflow: hidden;
-
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -263,13 +266,12 @@ header {
 
 .project-tags .tag {
   display: inline-block;
-  background-color: #7b7b7b;
+  background-color: #00000027;
   color: black;
   font-size: 0.75rem;
   padding: 5px 10px;
   border-radius: 999px;
   margin: 0 5px 8px 0;
-  transition: background 0.3s ease;
 }
 
 .visit-btn {
@@ -320,8 +322,7 @@ header {
   margin: 60px auto;
   padding: 2rem;
   border-radius: 20px;
-  background-color: #b4b4b490;
-  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   color: black;
 }
 

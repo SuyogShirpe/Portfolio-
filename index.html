@@ -14,7 +14,6 @@
     <title>Portfolio</title>
   </head>
   <body>
-
     <div id="content" class="content">
       <!-----------------------------------navbar--------------------------->
       <header>
@@ -30,10 +29,8 @@
             <li><a href="#CONTACT">CONTACT</a></li>
           </ul>
 
-      
-          <button id="theme1" class="theme1"><i class='bx bx-sun'  ></i> </button>
-          <button id="theme2" class="theme2"><i class='bx  bx-moon'  ></i> </button>
-
+          <button id="theme1" class="theme1"><i class="bx bx-sun"></i></button>
+          <button id="theme2" class="theme2"><i class="bx bx-moon"></i></button>
 
           <div class="toggle-btn"><i class="bx bx-menu"></i></div>
         </div>
@@ -65,7 +62,7 @@
           </p>
 
           <div>
-            <button class="btn1">Download CV</button>
+            <button class="btn1">VIEW CV</button>
           </div>
         </div>
       </div>
@@ -74,91 +71,130 @@
 
       <p class="title hidden" id="SKILLS">MY SKILLS</p>
 
-      <div class="skills-box hidden">
-
-        <div class="skills-item">
-          <img class="skills-img" src="images/html.png" alt="html img.." />
-          <p class="skills-text">HTML</p>
+      <div class="skills-grid hidden">
+        <div class="skill-card">
+          <img
+            src="images/html.png"
+            alt="HTML"
+          />
+          <p>HTML</p>
         </div>
-
-        <div class="skills-item">
-          <img class="skills-img" src="images/css.png" alt="css img.." />
-          <p class="skills-text">CSS</p>
+        <div class="skill-card">
+          <img
+            src="images/css.png"
+            alt="CSS"
+          />
+          <p>CSS</p>
         </div>
-
-        <div class="skills-item">
-          <img class="skills-img" src="images/javascript.png" alt="javascript img.." />
-          <p class="skills-text">JavaScript</p>
+        <div class="skill-card">
+          <img
+            src="images/javascript.png"
+            alt="JavaScript"
+          />
+          <p>JavaScript</p>
         </div>
-
-        <div class="skills-item">
-          <img class="skills-img" src="images/bootstrap.png" alt="" />
-          <p class="skills-text">BootStrap</p>
+        <div class="skill-card">
+          <img
+            src="images/mysql.png"
+            alt="MySQL"
+          />
+          <p>MySQL</p>
         </div>
-      </div>
-
-      <!--------------------------------------skill section 2 ------------------------------>
-
-      <div class="skills-box hidden">
-        <div class="skills-item">
-          <img class="skills-img" src="images/mysql.png" alt="" />
-          <p class="skills-text">MySql</p>
+        <div class="skill-card">
+          <img
+            src="images/bootstrap.png"
+            alt="Bootstrap"
+          />
+          <p>Bootstrap</p>
         </div>
-
         
-
-        </div>
       </div>
 
       <!-------------------------------projects-------------------------------------->
-  <p class="title hidden" id="PROJECTS">MY PROJECTS</p>
+      <p class="title hidden" id="PROJECTS">MY PROJECTS</p>
 
-  <div class="project-container hidden">
-    <div class="project-card">
-      <img class="project-img" src="images/amazon.png" alt="Amazon Clone Screenshot">
-      <h2 class="project-title">Amazon Clone</h2>
-      <p class="project-desc">An e-commerce UI clone built using HTML, CSS, and JS. Mimics Amazon’s layout and design for learning purposes.</p>
-      <div class="project-tags">
-        <span class="tag">HTML</span>
-        <span class="tag">CSS</span>
-        <span class="tag">JavaScript</span>
+      <div class="project-container hidden">
+        <div class="project-card">
+          <img
+            class="project-img"
+            src="images/amazon.png"
+            alt="Amazon Clone Screenshot"
+          />
+          <h2 class="project-title">Amazon Clone</h2>
+          <p class="project-desc">
+            An e-commerce UI clone built using HTML, CSS, and JS. Mimics
+            Amazon’s layout and design for learning purposes.
+          </p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <a
+            class="visit-btn"
+            href="https://suyogshirpe.github.io/amazon-clone/"
+            target="_blank"
+            >🔗 Visit</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img
+            class="project-img"
+            src="images/rps-game.png"
+            alt="Rock Paper Scissors Screenshot"
+          />
+          <h2 class="project-title">Simple Game</h2>
+          <p class="project-desc">
+            A rock-paper-scissors game with interactive UI built in JavaScript.
+          </p>
+          <div class="project-tags">
+            <span class="tag">JS</span>
+            <span class="tag">DOM</span>
+            <span class="tag">Game Logic</span>
+          </div>
+          <a
+            class="visit-btn"
+            href="https://suyogshirpe.github.io/Rock-Paper-Scissors/"
+            target="_blank"
+            >🔗 Visit</a
+          >
+        </div>
+
+        <div class="project-card">
+          <img
+            class="project-img"
+            src="images/college-result.png"
+            alt="College Result Website Screenshot"
+          />
+          <h2 class="project-title">College Result Website</h2>
+          <p class="project-desc">
+            A simple student result portal with front-end layout and responsive
+            design.
+          </p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JS</span>
+          </div>
+          <a
+            class="visit-btn"
+            href="https://suyogshirpe.github.io/College-Result-/"
+            target="_blank"
+            >🔗 Visit</a
+          >
+        </div>
       </div>
-      <a class="visit-btn" href="https://suyogshirpe.github.io/amazon-clone/" target="_blank">🔗 Visit</a>
-    </div>
-
-    <div class="project-card">
-      <img class="project-img" src="images/rps-game.png" alt="Rock Paper Scissors Screenshot">
-      <h2 class="project-title">Simple Game</h2>
-      <p class="project-desc">A rock-paper-scissors game with interactive UI built in JavaScript.</p>
-      <div class="project-tags">
-        <span class="tag">JS</span>
-        <span class="tag">DOM</span>
-        <span class="tag">Game Logic</span>
-      </div>
-      <a class="visit-btn" href="https://suyogshirpe.github.io/Rock-Paper-Scissors/" target="_blank">🔗 Visit</a>
-    </div>
-
-    <div class="project-card">
-      <img class="project-img" src="images/college-result.png" alt="College Result Website Screenshot">
-      <h2 class="project-title">College Result Website</h2>
-      <p class="project-desc">A simple student result portal with front-end layout and responsive design.</p>
-      <div class="project-tags">
-        <span class="tag">HTML</span>
-        <span class="tag">CSS</span>
-        <span class="tag">JS</span>
-      </div>
-      <a class="visit-btn" href="https://suyogshirpe.github.io/College-Result-/" target="_blank">🔗 Visit</a>
-    </div>
-
-
-    
-  </div>
       <!---------------------------------------ABOUT------------------------------------>
-<p class="title hidden" id="ABOUT">ABOUT ME</p>
+      <p class="title hidden" id="ABOUT">ABOUT ME</p>
 
       <div class="about-box hidden">
         <div class="abouts-item">
-          <img class="abouts-img" src="images/experience.png" alt="experience" />
+          <img
+            class="abouts-img"
+            src="images/experience.png"
+            alt="experience"
+          />
           <p>Experience is important but I don't have any...</p>
         </div>
 
@@ -170,45 +206,45 @@
         </div>
       </div>
 
-      
       <!--------------------------------------CONTACT----------------------------------->
 
       <p class="title hidden" id="CONTACT">CONTACT ME</p>
 
-<div class="contact-box hidden">
+      <div class="contact-box hidden">
+        <div class="contact-item">
+          <i class="bx bx-envelope"></i>
+          <div>
+            <p>Email</p>
+            <a href="mailto:shirpesuyog@gmail.com">shirpesuyog@gmail.com</a>
+          </div>
+        </div>
 
-  <div class="contact-item">
-    <i class="bx bx-envelope"></i>
-    <div>
-      <p>Email</p>
-      <a href="mailto:shirpesuyog@gmail.com">shirpesuyog@gmail.com</a>
+        <div class="contact-item">
+          <i class="bx bx-phone"></i>
+          <div>
+            <p>Phone</p>
+            <a href="tel:+918600825827">+91 86008 25827</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="bx bx-map"></i>
+          <div>
+            <p>Address</p>
+            <span>Hyderabad, India</span>
+          </div>
+        </div>
       </div>
-  </div>
-
-  <div class="contact-item">
-    <i class="bx bx-phone"></i>
-    <div>
-      <p>Phone</p>
-      <a href="tel:+918600825827">+91 86008 25827</a>
-    </div>
-  </div>
-
-  <div class="contact-item">
-    <i class="bx bx-map"></i>
-    <div>
-      <p>Address</p>
-      <span>Hyderabad, India</span>
-    </div>
-  </div>
-</div>
-
 
       <!---------------------------------------FOOTER------------------------------>
       <footer class="hidden">
         <div class="social">
-          <a href="https://www.linkedin.com/in/suyog-shirpe"><i class="bx bxl-linkedin-square"></i></a>
-          <a href="https://github.com/suyogshirpe"><i class="bx bxl-github"></i></a>
-          
+          <a href="https://www.linkedin.com/in/suyog-shirpe"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a href="https://github.com/suyogshirpe"
+            ><i class="bx bxl-github"></i
+          ></a>
         </div>
 
         <p>Copyright &#169; 2024 Suyog Shirpe. All Rights Reserved.</p>
