@@ -29,7 +29,6 @@
     max-width: 100%;
   }
 
-
   .project-container {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     padding: 2rem;
@@ -65,13 +64,9 @@
   }
 }
 
-
-
-
 @media (max-width: 640px) {
   .home img {
     height: 15rem;
-
   }
 
   .project-container {
@@ -119,7 +114,6 @@
     max-width: 100%;
   }
 
-
   .contact-box {
     padding: 1rem;
   }
@@ -136,5 +130,3 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-

@@ -186,7 +186,7 @@ header {
   padding: 2rem;
   background: #ffffff;
   border-radius: 16px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 
 .skill-card {
@@ -207,8 +207,11 @@ header {
   width: 60px;
   height: 60px;
   margin-bottom: 0.75rem;
-  transition: filter 0.3s ease;
   filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
+  transition: filter 0.3s ease;
+}
+.skill-card img:hover {
+  filter: drop-shadow(0 0 12px rgba(0, 0, 0, 0.25));
 }
 
 .skill-card p {
@@ -227,10 +230,10 @@ header {
 }
 
 .project-card {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.06);
   border-radius: 16px;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .project-card:hover {
@@ -242,7 +245,6 @@ header {
   height: 180px;
   object-fit: cover;
   display: block;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .project-title {
@@ -322,7 +324,7 @@ header {
   margin: 60px auto;
   padding: 2rem;
   border-radius: 20px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.06);
   color: black;
 }
 
@@ -356,7 +358,6 @@ header {
 .contact-item span {
   color: black;
   font-size: 1rem;
-  text-decoration: none;
   font-weight: 500;
 }
 
