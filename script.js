@@ -31,15 +31,15 @@ toggleBtn.onclick = function () {
 };
 
   const stylesheet = document.getElementById("stylesheet");
-  const btnLight = document.getElementById("theme1"); 
-  const btnDark = document.getElementById("theme2"); 
+  const btnLight = document.getElementById("theme2"); 
+  const btnDark = document.getElementById("theme1"); 
 
   btnLight.addEventListener("click", () => {
-    stylesheet.setAttribute("href", "light.css");
+    stylesheet.setAttribute("href", "dark.css");
   });
 
   btnDark.addEventListener("click", () => {
-    stylesheet.setAttribute("href", "styles.css");
+    stylesheet.setAttribute("href", "light.css");
   });
 
 
