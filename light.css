@@ -54,7 +54,8 @@ header {
 .theme2 {
   height: 2rem;
   width: 2rem;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px); 
   z-index: 1;
   color: #000;
   padding: auto;
@@ -79,6 +80,8 @@ header {
 }
 
 .dropdown {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px); 
   position: absolute;
   right: 0;
   top: 66px;
