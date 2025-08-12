@@ -60,7 +60,7 @@ header {
 .theme1 {
   height: 2rem;
   width: 2rem;
-  background: rgba(0, 0, 0, 0.4); 
+  background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(5px);
   color: white;
   padding: auto;
@@ -101,7 +101,7 @@ header {
   align-items: center;
 }
 .dropdown.open {
-  background: rgba(0, 0, 0, 0.4); 
+  background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(5px);
   height: 270px;
   border: 1px solid silver;
@@ -165,6 +165,16 @@ header {
   border-radius: 10px;
   cursor: pointer;
   border: 3px solid #00aaff;
+  transition: background-color 0.3s ease, transform 0.34s ease;
+}
+
+.btn1:hover {
+  background-color: #2980b9;
+  transform: scale(1.2);
+}
+
+.btn1 a {
+  color: white;
 }
 
 .hidden {
@@ -221,7 +231,7 @@ header {
   transition: filter 0.3s ease;
 }
 
-.skill-card img {
+.skill-card img:hover {
   filter: drop-shadow(0 0 16px rgba(255, 255, 255, 0.5));
 }
 
@@ -241,8 +251,8 @@ header {
 }
 
 .project-card {
-  box-shadow: 0 12px 40px rgba(255, 255, 255, 0.15),
-    0 6px 20px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 24px rgba(255, 255, 255, 0.087),
+    0 4px 8px rgba(255, 255, 255, 0.1);
   border-radius: 16px;
   overflow: hidden;
   transition: transform 0.3s ease;

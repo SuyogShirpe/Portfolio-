@@ -55,7 +55,7 @@ header {
   height: 2rem;
   width: 2rem;
   background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(5px); 
+  backdrop-filter: blur(5px);
   z-index: 1;
   color: #000;
   padding: auto;
@@ -69,7 +69,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 .theme1 {
   display: none;
@@ -97,7 +96,7 @@ header {
 }
 .dropdown.open {
   background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(5px); 
+  backdrop-filter: blur(5px);
   height: 270px;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
@@ -156,10 +155,17 @@ header {
 .btn1 {
   height: 45px;
   background-color: transparent;
-  color: rgb(0, 0, 0);
   border-radius: 10px;
   cursor: pointer;
   border: 3px solid crimson;
+  transition: background-color 0.3s ease, transform 0.34s ease;
+}
+.btn1:hover {
+  background-color: crimson;
+  transform: scale(1.2);
+}
+.btn1 a {
+  color: rgb(0, 0, 0);
 }
 
 .hidden {
