@@ -29,15 +29,6 @@
     max-width: 100%;
   }
 
-  .project-container {
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    padding: 2rem;
-  }
-
-  .project-card {
-    padding: 1rem;
-  }
-
   .about-box {
     flex-direction: column;
     height: auto;
@@ -67,15 +58,6 @@
 @media (max-width: 640px) {
   .home img {
     height: 15rem;
-  }
-
-  .project-container {
-    grid-template-columns: 1fr;
-    padding: 1rem;
-  }
-
-  .project-card {
-    min-height: auto;
   }
 
   .about-box,
